@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('git clone') {
             steps {
-               git url: 'https://github.com/gopivurata/terraform.git',
+               git url: 'https://github.com/Prasadsgithub/terraform-1.git',
                branch: 'main'
             }
 
